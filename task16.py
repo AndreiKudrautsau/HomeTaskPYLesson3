@@ -13,8 +13,7 @@ array = list()
 for i in range(number):
     arr = input(f"Введите {i+1} элемент: ")
     array.append(arr)
-    print(type(array[i]))
-
+    
 print(' '.join(array))
 
 find_val = input("Введите искомое значение: ")
